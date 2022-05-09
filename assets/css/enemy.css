@@ -1,0 +1,26 @@
+.helicopter,.truck{
+    position: absolute;
+    left: 100vw;
+    display: flex;
+    width: 256px;
+	height: 66px;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+.helicopter{
+    background-size: 200% 100%;
+    background-image: url(./../imgs/inimigo1.png);
+}
+.truck{
+    background-image: url(./../imgs/inimigo2.png);
+}
+
+.helicopter {
+    background-image:url(../imgs/inimigo1.png);
+    animation: play .2s steps(2) infinite;
+    -webkit-animation: play .2s steps(2) infinite;
+    -moz-animation: play .2s steps(2) infinite;
+    -ms-animation: play .2s steps(2) infinite;
+    -o-animation: play .2s steps(2) infinite; 
+}

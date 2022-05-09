@@ -1,0 +1,9 @@
+.shoot{
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    border-radius: 60%;
+    background-image: url(./../imgs/disparo.png);
+    display: flex;
+    margin: 0;
+}

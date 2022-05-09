@@ -1,0 +1,12 @@
+.menu{
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+    background-color: bisque;
+    border-radius: 10px;
+}

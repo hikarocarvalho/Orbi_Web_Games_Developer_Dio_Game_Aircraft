@@ -1,0 +1,16 @@
+.explosion{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-image: url(./../imgs/explosao.png);
+    background-size: 100% 100%;
+    width: 90px;
+    height: 90px;
+}
+
+.death{
+    width:44px;
+	height:51px;
+	position:absolute;
+    background-image: url(./../imgs/amigo_morte.png);
+}
